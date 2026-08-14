@@ -1,0 +1,15 @@
+vLLM显存优化配置
+
+主机：<container-hostname>
+模型：Qwen3-1.7B
+设备：单张K500SM_AI
+精度：BF16
+max_model_len：4096
+基线gpu_memory_utilization：0.80
+优化gpu_memory_utilization：0.35
+优化配置KV Cache：17.35 GiB
+优化配置KV Cache容量：162432 tokens
+4096 Token条件理论最大并发：39.66
+实际最大测试并发：32
+结果文件数：23
+总请求数：1150

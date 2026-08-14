@@ -1,0 +1,26 @@
+Thu Aug 13 05:49:22 PM CST 2026
+<container-hostname>
+
+============================ System Management Interface =============================
+======================================================================================
+DCU[0]		: DCU use (%): 0.0
+DCU[1]		: DCU use (%): 0.0
+DCU[2]		: DCU use (%): 0.0
+DCU[3]		: DCU use (%): 0.0
+======================================================================================
+======================================================================================
+DCU[0]		: vram Total Memory (MiB): 65520
+DCU[0]		: vram Total Used Memory (MiB): 53051
+DCU[1]		: vram Total Memory (MiB): 65520
+DCU[1]		: vram Total Used Memory (MiB): 2
+DCU[2]		: vram Total Memory (MiB): 65520
+DCU[2]		: vram Total Used Memory (MiB): 2
+DCU[3]		: vram Total Memory (MiB): 65520
+DCU[3]		: vram Total Used Memory (MiB): 2
+======================================================================================
+=================================== End of SMI Log ===================================
+
+    330 Sl+        36:55 /usr/bin/python3 /usr/local/bin/vllm serve /path/to/Qwen3-1.7B --served-model-name qwen3-1.7b --host 127.0.0.1 --port 8000 --dtype bfloat16 --max-model-len 4096 --gpu-memory-utilization 0.80 --generation-config vllm
+    331 S+         36:55 tee logs/vllm_server.log
+    635 Sl+        36:23 VLLM::EngineCore
+  32407 S+         00:01 tee verification/vllm_state_after_benchmark.txt

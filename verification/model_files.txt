@@ -1,0 +1,13 @@
+config.json	726 bytes
+configuration.json	73 bytes
+generation_config.json	239 bytes
+.gitattributes	2127 bytes
+LICENSE	11343 bytes
+merges.txt	1671853 bytes
+model-00001-of-00002.safetensors	3441185608 bytes
+model-00002-of-00002.safetensors	622329984 bytes
+model.safetensors.index.json	25605 bytes
+README.md	13963 bytes
+tokenizer_config.json	9732 bytes
+tokenizer.json	11422654 bytes
+vocab.json	2776833 bytes

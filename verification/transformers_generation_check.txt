@@ -1,0 +1,20 @@
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615208, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": " ", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615208, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "人工智能", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615208, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "（", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "Art", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "ificial", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": " Intelligence", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "，", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "简称", "logprobs": null, "finish_reason": null}]}
+
+data: {"id": "cmpl-2ba52328c5204a7eafe7cdba71205881", "object": "text_completion", "created": 1786615209, "model": "qwen3-1.7b", "choices": [{"index": 0, "text": "", "logprobs": null, "finish_reason": "length"}]}
+
+data: [DONE]
+

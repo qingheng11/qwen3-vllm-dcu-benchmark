@@ -1,0 +1,6 @@
+torch: 2.5.1
+HIP: 6.3.25405
+available: True
+visible devices: 1
+device 0: K500SM_AI
+device 0 calculation: 2.0

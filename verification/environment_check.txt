@@ -1,0 +1,59 @@
+hostname: <container-hostname>
+Thu Aug 13 05:11:13 PM CST 2026
+Python 3.10.12
+INFO 08-13 17:11:20 [__init__.py:217] Automatically detected platform rocm.
+0.11.0+das.opt1.alpha.dtk25042
+Name: vllm
+Version: 0.11.0+das.opt1.alpha.dtk25042.20251225.gca4598a4
+Summary: A high-throughput and memory-efficient inference and serving engine for LLMs
+Home-page: https://github.com/vllm-project/vllm
+Author: vLLM Team
+Author-email: 
+License-Expression: Apache-2.0
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: aiohttp, blake3, boto3, botocore, cachetools, cbor2, cloudpickle, cmake, compressed-tensors, cupy, datasets, depyf, diskcache, einops, fastapi, fastrlock, filelock, flash_attn, flash_mla, gguf, lark, lightop, llguidance, lm-format-enforcer, lmslim, mistral_common, msgspec, ninja, numa, numba, numpy, openai, openai-harmony, opencv-python-headless, outlines_core, packaging, partial-json-parser, peft, pillow, prometheus-fastapi-instrumentator, prometheus_client, protobuf, psutil, py-cpuinfo, pybase64, pydantic, pytest-asyncio, python-json-logger, pytrie, pyyaml, pyzmq, quart, ray, regex, requests, runai-model-streamer, runai-model-streamer-s3, scipy, sentencepiece, setproctitle, setuptools, setuptools-scm, tensorizer, tiktoken, timm, tokenizers, torch, tqdm, transformers, triton, typing_extensions, watchfiles, xgrammar
+Required-by: 
+---
+Name: torch
+Version: 2.5.1+das.opt1.dtk25042
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3-Clause
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: filelock, fsspec, jinja2, networkx, sympy, typing-extensions
+Required-by: accelerate, compressed-tensors, deepspeed, dropout_layer_norm, flash_attn, fused_dense_lib, grouped-gemm, grouped-gemm-int4, lightop, lmslim, megatron-core, moe-w8a8, moe-w8a8-prefill-gemm, peft, rotary_emb, runai-model-streamer, tensorizer, timm, torchaudio, torchdata, torchvision, transformer_engine, vllm, xentropy_cuda_lib, xgrammar
+---
+Name: transformers
+Version: 4.57.3
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: transformers@huggingface.co
+License: Apache 2.0 License
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by: compressed-tensors, peft, vllm, xgrammar
+---
+Name: triton
+Version: 3.1.0+das.opt1.dtk25042.20251224.gaa867475
+Summary: A language and compiler for custom Deep Learning operations
+Home-page: https://github.com/triton-lang/triton/
+Author: Philippe Tillet
+Author-email: phil@openai.com
+License: 
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: 
+Required-by: vllm, xgrammar
+
+============================ System Management Interface =============================
+======================================================================================
+DCU     Temp     AvgPwr     Perf     PwrCap     VRAM%      DCU%      Mode     
+0       48.0C    93.0W      manual   300.0W     0%         0.0%      Normal   
+1       51.0C    93.0W      manual   300.0W     0%         0.0%      Normal   
+2       47.0C    95.0W      manual   300.0W     0%         0.0%      Normal   
+3       49.0C    97.0W      manual   300.0W     0%         0.0%      Normal   
+======================================================================================
+=================================== End of SMI Log ===================================
+
