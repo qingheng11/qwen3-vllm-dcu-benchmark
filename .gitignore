@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.pid
+.DS_Store
+.idea/
+.vscode/
+logs/*.log
+logs/*.txt
+
